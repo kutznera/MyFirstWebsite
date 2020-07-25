@@ -1,0 +1,64 @@
+
+body {
+  background-color: rgb(41, 35, 95);
+}
+
+h1 {
+  color: chartreuse;
+  font-weight: bolder;
+  text-align: center;
+  font-family: Lucida Sans;
+}
+
+h2 {
+  color: coral;
+  font-size: large;
+}
+
+p {
+  text-align: center;
+  color: antiquewhite;
+  font-weight: bolder;
+}
+h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  color:  rgb(101, 47, 114);
+}
+ul {
+  font-size: 20px;
+  color: mediumorchid;
+}
+h4 {
+  font-size: 30px;
+  font-weight: bolder;
+  color:  rgb(101, 47, 114);
+}
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  .kidpic {
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
