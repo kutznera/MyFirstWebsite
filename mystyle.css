@@ -62,3 +62,12 @@ h4 {
     clear: both;
     display: table;
   }
+
+  .header {
+    padding: auto;
+    text-align: center;
+    background: #5e1010;
+    font-size: 15px;
+   margin-left: 200px;
+   margin-right: 200px;
+  }
