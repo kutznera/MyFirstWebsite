@@ -49,23 +49,21 @@ h4 {
   .kidpic {
     height: 300px;
     width: 200px;
-    border-radius: 50%;
+    border-radius: 20%;
     display: inline-block;
     margin: auto;
+    display: block;
   }
+
+  .kidpics {
+    display: flex;
+    }
 
   
   .column {
     float: left;
     width: 33.33%;
     padding: 5px;
-  }
-
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-    align-items: center;
   }
 
   .header {
