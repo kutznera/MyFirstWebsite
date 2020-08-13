@@ -5,14 +5,16 @@ body {
 
 h1 {
   color: chartreuse;
-  font-weight: bolder;
+  font-weight: 50px;
   text-align: center;
   font-family: Lucida Sans;
 }
 
 h2 {
-  color: coral;
-  font-size: large;
+  color: blueviolet;
+  font-weight: bolder;
+  text-align: center;
+  font-family: Lucida Sans;
 }
 
 p {
@@ -39,18 +41,20 @@ h4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
+    border-radius: 25%;
+    height: 300px;
+    width: auto;
   }
 
   .kidpic {
-    display: block;
-    height: 200px;
+    height: 300px;
     width: 200px;
     border-radius: 50%;
+    display: inline-block;
+    margin: auto;
   }
 
+  
   .column {
     float: left;
     width: 33.33%;
@@ -61,6 +65,7 @@ h4 {
     content: "";
     clear: both;
     display: table;
+    align-items: center;
   }
 
   .header {
@@ -71,3 +76,4 @@ h4 {
    margin-left: 200px;
    margin-right: 200px;
   }
+
