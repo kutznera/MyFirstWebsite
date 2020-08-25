@@ -1,79 +1,77 @@
+header {
+    font-size: 25px;
+    font-weight: bolder;
+}
 
 body {
-  background-color: rgb(41, 35, 95);
+    background-color: plum;
+    background: font-family 'raleway';
 }
 
-h1 {
-  color: chartreuse;
-  font-weight: 50px;
-  text-align: center;
-  font-family: Lucida Sans;
+.container {
+    display: flex;
+    flex-wrap: center;
 }
 
-h2 {
-  color: blueviolet;
-  font-weight: bolder;
-  text-align: center;
-  font-family: Lucida Sans;
+.bord {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-p {
-  text-align: center;
-  color: antiquewhite;
-  font-weight: bolder;
-}
-h3 {
-  font-size: 30px;
-  font-weight: bolder;
-  color:  rgb(101, 47, 114);
-}
-ul {
-  font-size: 20px;
-  color: mediumorchid;
-}
-h4 {
-  font-size: 30px;
-  font-weight: bolder;
-  color:  rgb(101, 47, 114);
-}
-
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25%;
-    height: 300px;
-    width: auto;
-  }
-
-  .kidpic {
-    height: 300px;
-    width: 200px;
-    border-radius: 50%;
+.crossfd {
+    background-color: rgb(80, 12, 97);
     display: inline-block;
+    background-size: cover;
+}
+
+.flexbox {
+    display: flexbox;
+    flex-direction: row;
+}
+
+.box {
+    background-color: rgb(177, 59, 12);
+    padding: 1;
+    margin: 1;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+
+/*nav bar*/
+
+* {
+    box-sizing: border-box;
     margin: auto;
-  }
-
-  
-  .column {
-    float: left;
-    width: 33.33%;
     padding: 5px;
-  }
+}
 
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-    align-items: center;
-  }
+body {
+    font-family: 'Times New Roman';
+    font-size: 12px;
+}
 
-  .header {
-    padding: auto;
-    text-align: center;
-    background: #5e1010;
-    font-size: 15px;
-   margin-left: 200px;
-   margin-right: 200px;
-  }
+nav {
+    background: aqua;
+    padding: 0 10px;
+    float: right;
+}
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.submenu {
+    list-style-type: none;
+}
+
+.item {
+    padding: 10px;
+}
+
+.item:not(.button) a:hover,
+.item a:hover::after {
+    color: #ccc;
+}
